@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pool Party Hippo
+* source:	https://sketchfab.com/3d-models/pool-party-hippo-9396b4a0215443f0969ffa47fb50d01b
+* author:	IgorSan (https://sketchfab.com/IgorSan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pool Party Hippo" (https://sketchfab.com/3d-models/pool-party-hippo-9396b4a0215443f0969ffa47fb50d01b) by IgorSan (https://sketchfab.com/IgorSan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

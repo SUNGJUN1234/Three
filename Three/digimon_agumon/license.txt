@@ -1,0 +1,11 @@
+Model Information:
+* title:	digimon agumon
+* source:	https://sketchfab.com/3d-models/digimon-agumon-2ca5f3152c004734b00a71efee87960a
+* author:	pokedigilucas (https://sketchfab.com/pokedigilucas)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "digimon agumon" (https://sketchfab.com/3d-models/digimon-agumon-2ca5f3152c004734b00a71efee87960a) by pokedigilucas (https://sketchfab.com/pokedigilucas) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Origami puppy
+* source:	https://sketchfab.com/3d-models/origami-puppy-e73f4aacb50e42008fe741eded34bf6a
+* author:	David Zapata (https://sketchfab.com/dazapa2894)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Origami puppy" (https://sketchfab.com/3d-models/origami-puppy-e73f4aacb50e42008fe741eded34bf6a) by David Zapata (https://sketchfab.com/dazapa2894) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

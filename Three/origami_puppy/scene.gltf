@@ -1,0 +1,413 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.8476700186729431,
+        0.8855699896812439,
+        0.156810000538826
+      ],
+      "min": [
+        -1.6922099590301514,
+        -1.001979947090149,
+        -0.03959999978542328
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1464,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.4375285506248474,
+        0.37510693073272705,
+        0.999839186668396
+      ],
+      "min": [
+        -0.3563616871833801,
+        -0.7941063046455383,
+        -0.995081901550293
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.5089300274848938,
+        0.9998999834060669
+      ],
+      "min": [
+        9.999999747378752e-05,
+        9.999999747378752e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 162,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2928,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.8476700186729431,
+        0.8855699896812439,
+        0.156810000538826
+      ],
+      "min": [
+        -1.6922099590301514,
+        -1.001979947090149,
+        -0.03959999978542328
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4392,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.3563616871833801,
+        0.7941063046455383,
+        0.995081901550293
+      ],
+      "min": [
+        -0.4375285506248474,
+        -0.37510693073272705,
+        -0.999839186668396
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 976,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.5148500204086304,
+        0.9998999834060669
+      ],
+      "min": [
+        9.999999747378752e-05,
+        9.999999747378752e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 648,
+      "componentType": 5125,
+      "count": 162,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "David Zapata (https://sketchfab.com/dazapa2894)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/origami-puppy-e73f4aacb50e42008fe741eded34bf6a",
+      "title": "Origami puppy"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1296,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1952,
+      "byteOffset": 1296,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5856,
+      "byteOffset": 3248,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 9104,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/Papel_cara_interna_diffuse.png"
+    },
+    {
+      "uri": "textures/Papel_diffuse.png"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.2,
+            0.16909694672,
+            0.1230662942
+          ]
+        }
+      },
+      "name": "Papel_cara_interna"
+    },
+    {
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 1
+          },
+          "glossinessFactor": 0.09999999999999998,
+          "specularFactor": [
+            0.2,
+            0.16909694672,
+            0.1230662942
+          ]
+        }
+      },
+      "name": "Papel"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "cara interna_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "cara con color_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.09296290576457977,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.064191168317903e-17,
+        -0.09296290576457977,
+        0.0,
+        0.0,
+        0.09296290576457977,
+        2.064191168317903e-17,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        7
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        -0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.010000000000000002,
+        1.0
+      ],
+      "name": "padre"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9994299999999999,
+        -0.033900000000000007,
+        0.0,
+        0.0,
+        0.033900000000000007,
+        0.9994299999999999,
+        0.0,
+        0.5997600000000001,
+        0.99828,
+        -0.04884000000000001,
+        1.0
+      ],
+      "name": "cara interna"
+    },
+    {
+      "mesh": 0,
+      "name": "cara interna_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9994299999999999,
+        -0.033900000000000007,
+        0.0,
+        0.0,
+        0.033900000000000007,
+        0.9994299999999999,
+        0.0,
+        0.5997600000000001,
+        0.99828,
+        -0.04884000000000001,
+        1.0
+      ],
+      "name": "cara con color"
+    },
+    {
+      "mesh": 1,
+      "name": "cara con color_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        0.99171,
+        -0.1285,
+        0.0,
+        0.0,
+        0.09454000000000003,
+        0.7295900000000001,
+        0.6773100000000001,
+        0.0,
+        -0.08703000000000002,
+        -0.6717000000000002,
+        0.7356900000000002,
+        0.0,
+        0.0,
+        0.0,
+        4.53735,
+        1.0
+      ],
+      "name": "Hemi"
+    },
+    {
+      "name": "Hemi"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
