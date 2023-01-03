@@ -1,0 +1,11 @@
+Model Information:
+* title:	ENVIRONMENT - MOVING AND HAULING
+* source:	https://sketchfab.com/3d-models/environment-moving-and-hauling-11f5069c2cae41b9a18d7847e67bc202
+* author:	thcyrax (https://sketchfab.com/kitsunegraphics)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "ENVIRONMENT - MOVING AND HAULING" (https://sketchfab.com/3d-models/environment-moving-and-hauling-11f5069c2cae41b9a18d7847e67bc202) by thcyrax (https://sketchfab.com/kitsunegraphics) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

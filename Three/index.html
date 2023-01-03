@@ -5,9 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #top{
+            height: 60px;
+            width: 1000px;
+            background-color: rgb(8, 135, 95);
+        }
+        #canvas{
+            margin-left: 100px;
+        }
+        #button{
+            margin-left: 200px;
+            width: 200px;
+            height: 30px;
+            padding: 15px;
+            padding-left: 80px;
+            padding-right: 80px;
+            font-size: larger;
+            color: aliceblue;
+           
+            
+            background-color: rgb(8, 135, 95);
+        }
+        #button2{
+            margin-left: 200px;
+            width: 200px;
+            height: 30px;
+            padding: 15px;
+            padding-left: 80px;
+            padding-right: 80px;
+            font-size: larger;
+            color: aliceblue;
+            
+            background-color: rgb(8, 135, 95);
+        }
+    </style>
 </head>
 <body>
-    <canvas id="canvas" width="1000" height="1000"></canvas>
+    <div id="top"></div>
+    <canvas id="canvas" width="800" height="400"></canvas>
+    <div>
+        <span id="button">입 고</span>
+        <span id="button2">출 고</span>
+    </div>
+    
+    
     
 
     <script type="module">
@@ -21,14 +63,14 @@
         });
         renderer.outputEncoding = THREE.sRGBEncoding;
 
-        let camera = new THREE.PerspectiveCamera(30,1);
-        camera.position.set(0,0,2)
+        let camera = new THREE.PerspectiveCamera(30,2);
+        camera.position.set(0,0,999)
 
-        let light = new THREE.DirectionalLight(0xffffff,3);
+        let light = new THREE.DirectionalLight(0xffffff,1);
         scene.add(light);
         scene.background = new THREE.Color('white');
 
-        let model = 'shiba/scene.gltf';
+        let model = 'environment_-_moving_and_hauling/scene.gltf';
 
         let loader = new GLTFLoader();
         loader.load(model,function(gltf){
@@ -36,7 +78,7 @@
             
             function animate(){
                 requestAnimationFrame(animate)
-                gltf.scene.rotation.y += 0.005;
+                gltf.scene.rotation.y -= 0.005;
 
                 renderer.render(scene, camera);
             }
